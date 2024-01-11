@@ -45,14 +45,14 @@ docsify init
 使用下面命令启动项目：
 
 ```bash
-docsify serve docs
+docsify serve
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105134816523.png)
+![20200105134816523.png](https://i.postimg.cc/PJn3X17Q/20200105134816523.png)
 
 浏览器输入：[http://localhost:3000](http://localhost:3000/)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020010513494279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![001.png](https://i.postimg.cc/0N552H3c/001.png)
 
 看着有点简陋，不过框架已经搭好了，接下来就是一些配置了。
 
@@ -89,13 +89,13 @@ docsify serve docs
 loadSidebar: true
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105141053778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![002.png](https://i.postimg.cc/mkgkmY02/002.png)
 
 好了，我们来看下效果。
 
 注意，无需我们重新启动docsify serve，保存刚才添加和修改的文件就行。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105141312381.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![011.png](https://i.postimg.cc/XXSGHSLn/011.png)
 
 **2、配置个封面**
 
@@ -120,21 +120,17 @@ loadSidebar: true
 coverpage: true
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105141937426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![012.png](https://i.postimg.cc/yYcvV7wX/012.png)
 
 看下效果
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105142017986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![003.png](https://i.postimg.cc/13BPTrt6/003.png)
 
 **3、配置一个首页**
 
 最后我们来配置下首页，也就是封面完了之后，第一个看到的界面。
 
 其实就是根目录下`README.md` 文件的内容。
-
-我们一直没有管他，默认就是这个样子的：
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105142433933.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
 
 改一下，放上自己牛逼的经历或者是标签。
 
@@ -149,7 +145,7 @@ coverpage: true
 
 看下效果
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105142733890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![005.png](https://i.postimg.cc/nzgn2VLP/005.png)
 
 
 
@@ -161,11 +157,11 @@ coverpage: true
 
 登录github的官网，创建一个仓库，起个名字吧，就叫myblogs。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105143404136.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![006.png](https://i.postimg.cc/DZ82147G/006.png)
 
 仓库创建好了，利用GitHub Desktop同步本地仓库。
 
-![image-20240111164947408](C:\Users\cheny\AppData\Roaming\Typora\typora-user-images\image-20240111164947408.png)
+![007.png](https://i.postimg.cc/1zWmgr1P/007.png)
 
 
 
@@ -175,11 +171,9 @@ coverpage: true
 
 在myblogs仓库下，选中 `Settings` 选项里的`Pages` 页签设置`Source` 和`branch`
 
-![image-20240111165157460](C:\Users\cheny\AppData\Roaming\Typora\typora-user-images\image-20240111165157460.png)
+![008.png](https://i.postimg.cc/c4qs8J2K/008.png)
 
-
-
-![image-20240111165451202](C:\Users\cheny\AppData\Roaming\Typora\typora-user-images\image-20240111165451202.png)
+![009.png](https://i.postimg.cc/qM8pcTH1/009.png)
 
 好了。
 
@@ -187,5 +181,5 @@ coverpage: true
 
 按照提示，我们访问看看：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200105145852248.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTY1MDE4,size_16,color_FFFFFF,t_70)
+![010.png](https://i.postimg.cc/8zNNt01N/010.png)
 
